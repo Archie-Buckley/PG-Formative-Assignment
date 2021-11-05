@@ -1,0 +1,113 @@
+.imageHeader {
+    background-image: url("https://www.edf.org/sites/default/files/facebook_thumb/GettyImages-155141288-polar-bear-1200x630-2.jpg");
+    min-height: 750px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageFooter {
+    background-image: url("https://www.edf.org/sites/default/files/facebook_thumb/GettyImages-155141288-polar-bear-1200x630-2.jpg");
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.whiteSection {
+    background-color: rgb(164, 179, 184);
+    overflow: auto;
+    color: white;
+}
+
+body {
+    background-color: rgb(145, 183, 206);
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: consolas;
+    margin-top: 4px;
+    color: rgb(139, 2, 29);
+    text-align: center;
+}
+h2 {
+    font-family: consolas;
+    margin-top: 4px;
+    color: rgb(7, 3, 194);
+    margin-left: 15px;
+}
+h3 {
+    font-family: consolas;
+    margin-top: 4px;
+    color: rgb(255, 32, 2);
+    margin-left: 25px;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(109, 6, 134);
+    margin-right: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+ol {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    color: rgb(18, 8, 61);
+    font-size: 18px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+li.cat1 {
+    float: left;
+}
